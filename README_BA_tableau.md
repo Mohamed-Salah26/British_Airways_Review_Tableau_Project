@@ -1,17 +1,17 @@
-# ✈️ British Airways Reviews Dashboard — Tableau Project
+# British Airways Reviews Dashboard — Tableau Project
 
 An interactive Tableau dashboard analyzing British Airways customer reviews. The project joins two data sources, uses calculated fields and a dynamic parameter, and visualizes airline performance across multiple service categories, aircraft types, time periods, and global routes.
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 | File | Description |
 |------|-------------|
 | `project5.twbx` | Packaged Tableau workbook (includes embedded data) |
 | `ba_reviews.csv` | Raw customer reviews data (embedded in the workbook) |
 | `Countries.csv` | Country reference table with continent and region info (embedded) |
-
+| `British Airways Dashboard.png| An image to review the dashboard in case you don't want to open via Tableau Descktop
 > `.twbx` is a **packaged workbook** — all data is bundled inside, so no external files are needed to open it.
 
 ---
