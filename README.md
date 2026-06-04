@@ -11,12 +11,12 @@ An interactive Tableau dashboard analyzing British Airways customer reviews. The
 | `project5.twbx` | Packaged Tableau workbook (includes embedded data) |
 | `ba_reviews.csv` | Raw customer reviews data (embedded in the workbook) |
 | `Countries.csv` | Country reference table with continent and region info (embedded) |
-| `British Airways Dashboard.png| An image to review the dashboard in case you don't want to open via Tableau Descktop
+| `British Airways Dashboard.png`| An image to review the dashboard in case you don't want to open via Tableau Descktop
 > `.twbx` is a **packaged workbook** — all data is bundled inside, so no external files are needed to open it.
 
 ---
 
-## 🗂️ Data Sources
+## Data Sources
 
 ### `ba_reviews.csv` — Main Reviews Table
 
@@ -53,13 +53,13 @@ An interactive Tableau dashboard analyzing British Airways customer reviews. The
 
 ---
 
-## 🔗 Data Relationship
+## Data Relationship
 
 The two tables are **joined** on the `place` field from `ba_reviews.csv` matching the `Country` field in `Countries.csv`. This enriches each review with continent and region data, enabling geographic filtering on the map.
 
 ---
 
-## 🔧 Calculated Fields & Parameters
+## Calculated Fields & Parameters
 
 ### Parameter — `Pick a Metric`
 A dynamic **string parameter** that lets the user switch the metric displayed across all charts:
@@ -93,7 +93,7 @@ This single calculated field powers all four worksheets dynamically — changing
 
 ---
 
-## 📊 Worksheets
+## Worksheets
 
 | Sheet | Chart Type | Description |
 |-------|------------|-------------|
@@ -104,7 +104,7 @@ This single calculated field powers all four worksheets dynamically — changing
 
 ---
 
-## 📈 Dashboard — `Dashboard 1`
+## Dashboard — `Dashboard 1`
 
 All four worksheets are combined into one interactive dashboard featuring:
 
@@ -121,7 +121,7 @@ All four worksheets are combined into one interactive dashboard featuring:
 
 ---
 
-## 🚀 How to Open
+## How to Open
 
 1. Download and install **Tableau Public** (free) or **Tableau Desktop**
 2. Open `project5.twbx` — data is already embedded, no CSV files needed
@@ -131,16 +131,17 @@ All four worksheets are combined into one interactive dashboard featuring:
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 - Tableau Public 2024.1+ or Tableau Desktop
 - No additional data files required (data is packaged inside `.twbx`)
 
----
+## Dataset Overview
 
-## 📂 Dataset Overview
-
-- **Source:** British Airways customer reviews (scraped/collected data)
+- **Source:** Data File are driven from mochen862 github page 
 - **Coverage:** Global reviewers across multiple continents
 - **Metrics tracked:** 7 service categories rated on a numeric scale
 - **Use case:** Identifying service strengths and weaknesses across aircraft types, routes, and passenger segments
+
+## Author: Mohamed Salah
+This project is part of my portfolio, showcasing the Excel skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
